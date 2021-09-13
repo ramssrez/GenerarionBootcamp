@@ -9,12 +9,13 @@
         <h1>
             Imagenes, tablas y forms
         </h1>
+        <hr/>
         <h3>Imagenes </h3>
         <h3>Imagen desde el proyecto</h3>
         <img src="img/paisaje.jpg" alt="Paisaje desde el proyecto" title="Paisaje en proyecto" height="200" width="200">
         <h4>Imagen desde la web</h4>
         <img src="https://valenciaplaza.com/public/Image/2020/10/PORTADA_NoticiaAmpliada.jpg" alt="La serie Primal" title="Primal la serie">
-
+        <hr />
         <h3>Uso de tablas</h3>
         <table border="1">
             <!-- tr es la etiqueta para las filas de una tabla -->
@@ -37,9 +38,13 @@
                 <td>Programación Orintadad a Objetos</td>
             </tr>
         </table>
+        <hr/>
         <h3>Ejercicio de tabla</h3>
         <h4>Mi horario de Clases</h4>
         <table border="1" align="center">
+            <tr>
+                <th colspan="6">Mi horario de Clases</th>
+            </tr>
             <tr>
                 <th>Horario</th>
                 <th>Lunes</th>
@@ -54,7 +59,7 @@
                 <td>Programación</td>
                 <td>Base de datos</td>
                 <td>Programación</td>
-                <td>POO</td>
+                <td rowspan="4">Programación Orientada a Objetos</td>
             </tr>
             <tr>
                 <td>09:00 - 10:00</td>
@@ -62,7 +67,7 @@
                 <td>Flosofia</td>
                 <td>Estrutura de datos</td>
                 <td>Filosofía</td>
-                <td>POO</td>
+                
             </tr>
             <tr>
                 <td>10:00 - 11:00</td>
@@ -70,7 +75,7 @@
                 <td>Finanzas</td>
                 <td>HTML</td>
                 <td>Finanzas</td>
-                <td>POO</td>
+                
             </tr>
             <tr>
                 <td>11:00 - 12:00</td>
@@ -78,7 +83,7 @@
                 <td>JS</td>
                 <td>CSS</td>
                 <td>JS</td>
-                <td>POO</td>
+                
             </tr>
             <tr>
                 <td>12:00 - 13:00</td>
@@ -89,5 +94,29 @@
                 <td>Libre</td>
             </tr>
         </table>
+
+        <hr />
+        <section style="color: red;">
+            <h3>Ejercicio con colspan</h3>
+            <table border="1" align="center">
+                <tr>
+                    <td>Rojo</td>
+                    <td colspan="2">Verde</td>
+                </tr>
+                <tr>
+                    <td>Café</td>
+                    <td>Marrón</td>
+                    <td>Tinto</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Naranja</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Blanco</td>
+                    <td>Negro</td>
+                </tr>
+        </table>
+        </section>
+        
     </body>
 </html>
