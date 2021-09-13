@@ -9,7 +9,7 @@
         <section>
             <!-- action se refiere a la acción que realizara -->
             <!-- method hace referencia al metodo http usado para enivar los datos, GET es el mas usado -->
-            <form>
+            <form method="GET">
                 <p>
                     <label for="name">Nombre:</label>
                     <input type="text" name="name"/>
@@ -42,6 +42,20 @@
                         <option value="3">Azul</option>
                     </select>
                 </p>
+                <p>
+                    <label for="">Selecciona tu rango de edad</label>
+                    <label for="">De 18 a 22</label>
+                    <input type="radio" name="edad"/>
+                    <label for="">De 22 a 38</label>
+                    <input type="radio" name="edad"/>
+                    <label for="">De 29 a 59</label>
+                    <input type="radio" name="edad"/>
+                </p>
+                <!-- Opción ya vieja para poder relizar el envio de los datos -->
+                <input type="submit" value="Guardar datos"/>
+                <!-- Segunda opción para hacer un boton -->
+                <button>Enviar datos</button>
+
             </form>
         </section>
     </body>
