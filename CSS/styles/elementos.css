@@ -1,3 +1,11 @@
+body{
+    background-image: url("https://i.pinimg.com/736x/55/e4/fd/55e4fdf5440f722acf98d05189405141.jpg");
+    /* Hace que toda la imagen utilice la pantalla */
+    background-size:cover ;
+}
+header{
+    background-color:blueviolet ;
+}
 .title{
     text-align: center;
     color: royalblue;
@@ -14,5 +22,16 @@
     margin: 30px;
 }
 #caja{
-    background: chartreuse;
+    background: black;
+    color: white;
+    width: 500px;
+    height: 300px;
+    margin: 10px auto;
+    padding: 20px;
+}
+#cajaDos p{
+    background-color: blue;
+    color: white;
+    width: 500px;
+    margin: auto;
 }
