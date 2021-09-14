@@ -1,0 +1,41 @@
+body{
+    background-color:#c6d9ee;
+}
+div{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+.comic span{
+    color: red;
+}
+h1{
+    text-align: right;
+    padding: 10px;
+    margin: 0px;
+}
+h2{
+    margin-left: 20px;
+}
+p{
+    margin: 0%;
+    padding: 10px;
+}
+.pie{
+    text-align: center;
+    font-size: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.naranja{
+    color: orangered;
+}
+.verde{
+    background-color:white ;
+    color: green;
+    font-family: cursive;
+}
+.rojo{
+    color: red;
+}
