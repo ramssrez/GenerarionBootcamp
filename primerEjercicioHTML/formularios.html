@@ -1,10 +1,42 @@
-<html lang="en">
-  <head>
+<html lang="es">
+
+<head>
     <meta charset="UTF-8" />
     <title>Formulario con HTML</title>
-  </head>
-  <body>
-      <h2>Ingresa los siguientes campos</h2>
-      
-  </body>
+    <link rel="stylesheet" href="/styles/formulario.css">
+</head>
+
+<body>
+    <div class="campos">
+        <h2>Ingresa los siguientes campos</h2>
+        <form method="POST">
+            <p>
+                <label for="name">Ingresa tu nombre:</label>
+                <input type="text" name="nameField" />
+            </p>
+            <p>
+                <label for="apellidoPaterno"> Ingresa tu apellido paterno:</label>
+                <input type="text" name="apellidoPaterno" />
+            </p>
+            <p>
+                Ingreso tu apellido materno
+                <input type="text" name="apellidoMaterno" />
+            </p>
+            <p>
+                Ingresa tu correo:
+                <input type="email" name="email" />
+            </p>
+            <p>
+                Ingresa tu contraseña:
+                <input type="password" name="password" />
+            </p>
+            <p>
+                Ingresa tu número telefonico:
+                <input type="tel" name="textField" />
+            </p>
+            <button class="button">Enviar datos</button>
+        </form>
+    </div>
+</body>
+
 </html>

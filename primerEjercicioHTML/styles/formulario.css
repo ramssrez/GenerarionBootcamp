@@ -1,0 +1,25 @@
+.campos{
+    margin: 0;
+    padding: 10px auto
+    ;
+    font-size: 30px;
+    text-align:center;
+    background-color: yellow ;
+    background: linear-gradient(#f69d3c, #3f87a6);
+}
+.button{
+    font-size: 20px;
+    background: chartreuse;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.campos label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+}
+.campos input{
+    border-radius: 10rem;
+    font-size: 20px;
+}
