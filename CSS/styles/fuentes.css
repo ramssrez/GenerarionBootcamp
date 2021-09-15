@@ -1,9 +1,39 @@
 body{
     background-color: aquamarine;
 }
-h1{
-    font-family: satisfy;
+.title{
+    font-family: 'Satisfy', cursive;
+    background: -webkit-linear-gradient(blue,green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;
 }
-h2{
-    font-family: "play";
+.titleDos{
+    font-family: 'Play', sans-serif;
+    font-weight: 400;
+    background: -webkit-linear-gradient(green,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;
+}
+.titleTres{
+    font-family: 'Cookie', cursive;
+    background: -webkit-linear-gradient(yellow,green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;
+}
+.titleCuatro{
+    font-family: 'Sigmar One', cursive;
+    background: -webkit-linear-gradient(yellow,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato; 
+}
+.titleCinco{
+    font-family: 'Great Vibes', cursive;
+    background: -webkit-linear-gradient(blue,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;
 }
