@@ -22,3 +22,20 @@
     border-radius: 10rem;
     font-size: 20px;
 }
+body{
+    background: linear-gradient(#f69d3c, #3f87a6);
+}
+li{
+    list-style: none;
+    margin-right: 25px;
+
+}
+a{
+    text-decoration: none;
+    color:black
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}

@@ -3,8 +3,52 @@
     <head lang="es">
         <meta charset="UTF-8"/>
         <title>Ejercicio HTML contacto</title>
+        <link rel="stylesheet" href="/styles/formulario.css">
     </head>
     <body>
-        
+        <div>
+            <h1>Pagina de contacto</h1>
+        </div>
+        <h3>Selecciona una de estas opciones</h3>
+        <nav>
+            <div class="menu">
+                <ul>
+                    <li> <a href="/ejercicioTresArchivos/principal.html">Principal</a> </li>
+                    <li> <a href="/ejercicioTresArchivos/galeria.html">Galeria </a></li>
+                    <li> <a href="/ejercicioTresArchivos/contacto.html"> Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="campos">
+            <h2>Ingresa los siguientes datos para ponernos en contacto contigo</h2>
+        <form method="POST">
+            <p>
+                <label  for="name">Ingresa tu nombre:</label>
+                <input placeholder="Nombre" type="text" name="nameField" />
+            </p>
+            <p>
+                <label for="apellidoPaterno"> Ingresa tu apellido paterno:</label>
+                <input placeholder="Apellido Paterno" type="text" name="apellidoPaterno" />
+            </p>
+            <p>
+                Ingreso tu apellido materno
+                <input placeholder="Apellido Materno" type="text" name="apellidoMaterno" />
+            </p>
+            <p>
+                Ingresa tu correo:
+                <input placeholder="email" type="email" name="email" />
+            </p>
+            <p>
+                Ingresa tu número telefonico:
+                <input placeholder="5555555555" type="tel" name="textField" />
+            </p>
+            <p>
+                Dejanos tus comentarios
+                <textarea name="" id="" cols="40" rows="10"></textarea>
+            </p>
+            <button class="button">Enviar datos</button>
+        </form>
+        </div>
+
     </body>
 </html>
