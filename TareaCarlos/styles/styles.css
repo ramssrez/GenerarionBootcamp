@@ -1,11 +1,13 @@
-body{
-    background-color: aqua;
-}
-header .div-header{
-    border: brown solid;
+.div-header{
+    border: black solid;
     background-color: gainsboro;
     text-align: center;
-    font-size: 20px;
     margin: 10px;
     padding: 10px;
+}
+.div-nav{
+    border: black solid;
+    background-color: gainsboro;
+    text-align: center; 
+    margin: 10px;
 }
