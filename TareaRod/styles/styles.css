@@ -1,0 +1,12 @@
+body {
+  background-color: blue;
+}
+/* Plato */
+.pozole-imagen{
+  position: absolute;
+  width: 53px;
+  height: 45px;
+  left: 14px;
+  top: 9px;
+  background-image: url(sopa.png);
+}
