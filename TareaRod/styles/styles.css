@@ -130,7 +130,7 @@ footer {
 .valoracion h1 {
   margin-left: 50px;
   font-size: 50px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   width: 50%;
 }
 .valoracion p {
@@ -148,9 +148,11 @@ footer {
 .formulario {
   background: linear-gradient(to right, tomato, white);
   display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin: 20px;
+  justify-content: center;
+  border-radius: 2rem;
+  width: 80%;
+  padding: 10px;
+  margin: 0px;
 }
 .botones {
   background-color: tomato;
@@ -163,5 +165,8 @@ footer {
 }
 .conteiner-dates {
   background-color: gainsboro;
-  height: 100px;
+  height: 652px;
+  width: 637px;
+  border-radius: 2rem;
+  margin-right: 50px;
 }
