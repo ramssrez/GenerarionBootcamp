@@ -1,3 +1,6 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .pozole-imagen{
     margin-top: 10px;
     margin-left: 15px;
@@ -39,4 +42,56 @@ footer{
     margin-top: 81px;
     margin-right: 70px;
     margin-bottom: 100px;
+}
+.pozole{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(/image/pozole.jpg);
+    height: 100vh;
+    background-size: 100% 90vh;
+    background-repeat: no-repeat;
+    position: relative;
+    align-items: flex-end;
+    display: flex;
+    flex-flow: row wrap;
+}
+.pozole-absolute{
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+.pozole-p{
+    height: 90px;
+    width: 740px;
+    margin-bottom: 30px;
+}
+.pozole-h{
+    font-size: 50px;
+    margin-top:10px ;
+}
+.boton-lleno{
+    background-color: tomato;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    margin-left: 70px;
+}
+.boton-dos{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    margin-left: 70px;
+    border: 3px white solid;
+}
+.iconos{
+    background-color:tomato ;
+    height: 350px;
+    width: 350px;
+    color: white;
+    margin: 10px;
+    padding: 30px;
+}
+.div-icono{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    align-items: center;
 }
