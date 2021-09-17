@@ -3,7 +3,9 @@ body{
 }
 .conteiner{
     width: 90%;
-    height: 500px;
+    min-height: 500px;
+    /* height: 500px; */
+    /* min-heigth se pude hacer por pixeles pero se encoga y se puda ver los elementos que contien*/
     margin: 0 auto;
     border: 2px black solid;
     display: flex;
@@ -28,12 +30,14 @@ body{
 }
 .caja-dos{
     border: 2px yellow solid;
-    /* Con esta opcion se manda  */
+    /* Con esta opcion se manda  el elemento al final*/
     align-self: flex-end;
 }
 .caja-tres{
     border: 2px yellowgreen solid;
+    align-self:center;
 }
 .caja-cuatro{
     border: 2px blueviolet solid;
+    align-self: flex-start;
 }
