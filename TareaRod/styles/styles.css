@@ -1,12 +1,23 @@
-body {
-  background-color: blue;
-}
+
 /* Plato */
 .pozole-imagen{
-  position: absolute;
-  width: 53px;
-  height: 45px;
-  left: 14px;
-  top: 9px;
-  background-image: url(sopa.png);
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.header-poz{
+    background: black;
+    height: 70px;
+}
+.lista-menu{
+    color: white;
+    display: flex;
+}
+.div-menu{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    margin-right: 25px;
+    font-size: 20px;
 }
