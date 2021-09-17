@@ -45,7 +45,7 @@ footer {
 }
 .pozole {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(/image/pozole.jpg);
+    url(image/pozole.jpg);
   height: 100vh;
   background-size: 100% 90vh;
   background-repeat: no-repeat;
