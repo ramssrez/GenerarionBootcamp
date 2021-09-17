@@ -119,3 +119,28 @@ footer{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.valoracion{
+    display: flex;
+    justify-content:center;
+}
+.valoracion img{
+    margin-left: 400px;
+}
+.valoracion h1{
+    margin-left: 50px;
+    font-size: 50px;
+    margin-bottom: 0px;
+    width: 50%;
+}
+.valoracion p{
+    margin-left: 50px;
+    width: 50%;
+}
+.estrellas{
+    display: flex;
+    justify-content:center;
+    margin: 100px;
+}
+.estrellas img{
+    margin: 5px;;
+}
