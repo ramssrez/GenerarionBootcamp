@@ -47,3 +47,24 @@ section {
     clear: both;
     float: none;
 }
+.maqueta-dos{
+    background-color:  #fc644c ;
+    border-radius: 1rem;
+}
+.general{
+    background-color: #2480e0 ;
+    width: 25%;
+    height: 250px;
+    color: white;
+    font-size: 200px;
+    margin: 10px;
+    text-align: center;
+}
+.general-inv{
+    width: 25%;
+    height: 250px;
+    margin: 10px;
+}
+.div-maqueta-dos {
+    display: flex;
+}
