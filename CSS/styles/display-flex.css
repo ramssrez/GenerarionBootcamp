@@ -1,0 +1,39 @@
+body{
+    background-color: aquamarine;
+}
+.conteiner{
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 2px black solid;
+    display: flex;
+    /* Permite ordenar los elementos de manera horizontal */
+    justify-content: space-around;
+    /* justify-content: space-around; espacion paro los lados */
+    /* justify-content: space-between; espacion entre objetos */
+    flex-wrap: wrap;/* Hace que los elementos bajen */
+    /* Permite ordenar los  elementos de manera vertical*/
+    align-items: flex-start;
+}
+.caja{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja-uno{
+    border: 2px red solid;
+    
+}
+.caja-dos{
+    border: 2px yellow solid;
+    /* Con esta opcion se manda  */
+    align-self: flex-end;
+}
+.caja-tres{
+    border: 2px yellowgreen solid;
+}
+.caja-cuatro{
+    border: 2px blueviolet solid;
+}
