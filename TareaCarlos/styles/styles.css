@@ -11,35 +11,25 @@
   text-align: center;
   margin: 10px;
 }
-.div-left {
-  float: left;
+.div-dos{
   border: black solid;
   background-color: gainsboro;
   text-align: center;
   width: 20%;
   height: 300px;
+  margin: 10px;
 }
-
-.div-right {
-  float: right;
-  border: black solid;
-  background-color: gainsboro;
-  text-align: center;
-  width: 20%;
-  height: 300px;
-}
-.div-center {
-  border: black solid;
-  background-color: gainsboro;
-  width: 56%;
-  height: 300px;
-  text-align: center;
-  float: left;
-  margin-right: 10px;
-  margin-left: 10px;
-}
+.div-uno{
+    border: black solid;
+    background-color: gainsboro;
+    text-align: center;
+    width: 60%;
+    height: 300px;
+    margin-top: 10px;
+  }
 .div-main {
-    margin: 10px;
+    display: flex;
+    justify-content:space-around;
 }
 section {
   border: 1px solid blue;
