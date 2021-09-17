@@ -1,146 +1,162 @@
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
-.pozole-imagen{
-    margin-top: 10px;
-    margin-left: 15px;
+.pozole-imagen {
+  margin-top: 10px;
+  margin-left: 15px;
 }
-.header-poz{
-    background: black;
-    height: 70px;
-    margin: 0px;
+.header-poz {
+  background: black;
+  height: 70px;
+  margin: 0px;
 }
-.lista-menu{
-    color: white;
-    display: flex;
+.lista-menu {
+  color: white;
+  display: flex;
 }
-.div-menu{
-    display: flex;
-    justify-content: space-between;
+.div-menu {
+  display: flex;
+  justify-content: space-between;
 }
-li{
-    list-style: none;
-    margin-right: 25px;
-    font-size: 20px;
+li {
+  list-style: none;
+  margin-right: 25px;
+  font-size: 20px;
 }
-footer{
-    background: black;
-    height: 330px; 
+footer {
+  background: black;
+  height: 330px;
 }
-.footer-p{
-    width: 700px;
-    height: 220px;
-    color: white;
-    margin-left: 104px;
-    margin-bottom: 20px;
+.footer-p {
+  width: 700px;
+  height: 220px;
+  color: white;
+  margin-left: 104px;
+  margin-bottom: 20px;
 }
-.footer-h{
-    color: white;
-    margin-left: 104px;
+.footer-h {
+  color: white;
+  margin-left: 104px;
 }
-.pozole-imagen-footer{
-    margin-top: 81px;
-    margin-right: 70px;
-    margin-bottom: 100px;
+.pozole-imagen-footer {
+  margin-top: 81px;
+  margin-right: 70px;
+  margin-bottom: 100px;
 }
-.pozole{
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(/image/pozole.jpg);
-    height: 100vh;
-    background-size: 100% 90vh;
-    background-repeat: no-repeat;
-    position: relative;
-    align-items: flex-end;
-    display: flex;
-    flex-flow: row wrap;
+.pozole {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(/image/pozole.jpg);
+  height: 100vh;
+  background-size: 100% 90vh;
+  background-repeat: no-repeat;
+  position: relative;
+  align-items: flex-end;
+  display: flex;
+  flex-flow: row wrap;
 }
-.pozole-absolute{
-    color: white;
-    width: 80%;
-    margin: 0 auto;
+.pozole-absolute {
+  color: white;
+  width: 80%;
+  margin: 0 auto;
 }
-.pozole-p{
-    height: 90px;
-    width: 740px;
-    margin-bottom: 30px;
+.pozole-p {
+  height: 90px;
+  width: 740px;
+  margin-bottom: 30px;
 }
-.pozole-h{
-    font-size: 50px;
+.pozole-h {
+  font-size: 50px;
 }
-.boton-lleno{
-    background-color: tomato;
-    padding: 15px;
-    color: white;
-    text-decoration: none;
-    margin-left: 70px;
+.boton-lleno {
+  background-color: tomato;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  margin-left: 70px;
 }
-.boton-dos{
-    padding: 15px;
-    color: white;
-    text-decoration: none;
-    margin-left: 70px;
-    border: 3px white solid;
+.boton-dos {
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  margin-left: 70px;
+  border: 3px white solid;
 }
-.iconos{
-    background-color:tomato ;
-    height: 350px;
-    width: 350px;
-    color: white;
-    margin: 10px;
-    padding: 30px;
+.iconos {
+  background-color: tomato;
+  height: 350px;
+  width: 350px;
+  color: white;
+  margin: 10px;
+  padding: 30px;
 }
-.div-icono{
-    display: flex;
-    justify-content:space-around;
-    text-align: center;
-    align-items: center;
+.div-icono {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
 }
-.div-discripcion{
-    display: flex;
-    justify-content:center;
+.div-discripcion {
+  display: flex;
+  justify-content: center;
 }
-.div-discripcion p{
-    width: 50%;
-    margin-left: 150px;
+.div-discripcion p {
+  width: 50%;
+  margin-left: 150px;
 }
-.div-discripcion h1{
-    width: 50%;
-    margin-left: 150px;
-    font-size: 50px;
+.div-discripcion h1 {
+  width: 50%;
+  margin-left: 150px;
+  font-size: 50px;
 }
-.div-discripcion img{
-    margin-right: 130px;
+.div-discripcion img {
+  margin-right: 130px;
 }
-.p-descripcion{
-    border: 5px tomato solid;
-    width: 1000px;
-    height: 200px;
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.p-descripcion {
+  border: 5px tomato solid;
+  width: 1000px;
+  height: 200px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-.valoracion{
-    display: flex;
-    justify-content:center;
+.valoracion {
+  display: flex;
+  justify-content: center;
 }
-.valoracion img{
-    margin-left: 400px;
+.valoracion img {
+  margin-left: 400px;
 }
-.valoracion h1{
-    margin-left: 50px;
-    font-size: 50px;
-    margin-bottom: 0px;
-    width: 50%;
+.valoracion h1 {
+  margin-left: 50px;
+  font-size: 50px;
+  margin-bottom: 0px;
+  width: 50%;
 }
-.valoracion p{
-    margin-left: 50px;
-    width: 50%;
+.valoracion p {
+  margin-left: 50px;
+  width: 50%;
 }
-.estrellas{
-    display: flex;
-    justify-content:center;
-    margin: 100px;
+.estrellas {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
 }
-.estrellas img{
-    margin: 5px;;
+.estrellas img {
+  margin: 10px;
+}
+.formulario {
+  background: linear-gradient(to right, tomato, white);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px;
+}
+.botones {
+  background-color: tomato;
+  border-radius: 1rem;
+  border: 1px white solid;
+}
+.conteiner-dates {
+  background-color: gainsboro;
 }
