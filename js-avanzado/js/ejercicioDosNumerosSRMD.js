@@ -6,11 +6,14 @@ si el primero es mayor al segundo informar su suma y diferencia,
 //prompt para ingresar los valores por parte del usuario
 var numero = parseInt(prompt("Ingresa el primer número"));
 var numeroDos = parseInt(prompt("Ingresa el segundo número"));
-if (numero > numeroDos){
+
+if(isNaN(numero) || isNaN(numeroDos)){
+    console.log("No son números las variables ingresadas")
+}else if (numero > numeroDos){
     console.log(suma(numero,numeroDos));
     console.log(resta(numero,numeroDos));
 }else if(numero === numeroDos){
-    console.log("Los numeros son iguales no se puede hacer las operaciones")
+    console.log("Los numeros son iguales")
 }else{
     console.log(multi(numero,numeroDos));
     console.log(div(numero,numeroDos));
