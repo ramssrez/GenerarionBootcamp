@@ -46,6 +46,8 @@ console.log(filtrados);
 /* Rellenar un arreglos con random */
 let arregloEjemplo = [];
 for(let i = 0; i<10; i++){
-    arregloEjemplo[i] = i*2;
+    //Creación de números random y parseo del mismo
+    let random = parseInt(Math.random()*(100-1)*1)
+    arregloEjemplo[i] = random;
 }
 console.log(arregloEjemplo);
