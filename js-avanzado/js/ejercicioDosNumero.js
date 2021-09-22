@@ -29,7 +29,6 @@ function arregloFun(numero, numeroDos){
             arregloImpar.push(i);
         }
     }
-    console.log(arregloImpar.length)
     for(let i = 0 ; i < arregloImpar.length; i++){
         console.log(arregloImpar[i]);
     }
