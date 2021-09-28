@@ -7,8 +7,7 @@ $btn.addEventListener("click", () =>{
         console.log(data)
         /* Destructuracion */
         const [cat]= data;
-        const cat = data[0];
-        
+        //const cat = data[0];
         console.log(cat); 
         let imaCat =document.createElement("img");
         imaCat.src = data[0].url;
