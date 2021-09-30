@@ -47,15 +47,16 @@ class Pokemon{
         return message;
     }
 }
-const charmander = new Pokemon("Charmander", "Fire", ["Charmeleon", "Charizar"]);
-const squirtle = new Pokemon("Squirtle", "Water", ["Wartortle", "Blastoise"]);
 
-console.log(`${charmander.name} es de tipo ${charmander.type}`);
-console.log(charmander.attack());
-console.log(charmander.evolve(0));
-console.log(`${charmander.name}`)
-console.log("---------------------------------------------------");
-
-console.log(`${squirtle.name} es de tipo`);
-console.log(squirtle.attack());
-console.log(squirtle.evolve(0));
+class TypeFire extends Pokemon{
+    constructor(name, evolutions){
+        super(name, "Fire", evolutions);
+    }
+    message(){
+        return `Hola soy ${this.name} y soy de tipo fuego`;
+    }
+}
+const charmander = new TypeFire("Charmander", ["Charmeleon", "Charizar"]);
+console.log(charmander.message());
+charmander.name= "Gato";
+console.log(charmander.name);
