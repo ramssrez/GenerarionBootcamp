@@ -1,0 +1,14 @@
+{
+  "name": "aprendiendo-npm",
+  "version": "1.0.0",
+  "description": "Apreniendo npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raúl Ramirez Pérez",
+  "license": "ISC",
+  "dependencies": {
+    "sweetalert2": "^11.1.7"
+  }
+}
