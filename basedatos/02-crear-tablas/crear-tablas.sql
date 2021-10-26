@@ -7,3 +7,5 @@ CREATE TABLE usuarios(
     direccion VARCHAR(255),
     CONSTRAINT pk_usuario PRIMARY KEY (id)
 );
+
+SHOW TABLES;
