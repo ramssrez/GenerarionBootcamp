@@ -6,3 +6,6 @@ SHOW DATABASES;
 
 /* Eliminacion de una base de datos */
 DROP DATABASE blog;
+
+/* Seleccionar base de datos */
+USE blog;
