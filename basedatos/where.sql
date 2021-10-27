@@ -56,3 +56,27 @@ SELECT * FROM actor WHERE first_name LIKE "%u%" OR last_name LIKE "e%";
 
 /* Busca first_name que contengan an o empiecen con e */
 SELECT * FROM actor WHERE first_name LIKE "%an%" OR last_name LIKE "e%";
+
+
+/* Desde la tabla film */
+SELECT * FROM film WHERE rental_duration = 3;
+
+/* Cuenta todos los elementos que tengan un rental_duration=3 */
+SELECT COUNT(film_id) FROM film WHERE rental_duration = 3;
+
+/* Retorno del numero de peliculas con rental_duration y con un identificador */
+SELECT rental_duration, COUNT(film_id) AS "Total:" FROM film WHERE rental_duration = 3;
+
+/*GROUP agrupar elementos de la cantidad de elementos que existen*/
+SELECT rental_duration, COUNT(film_id) AS "Total" FROM film GROUP BY rental_duration;
+
+/* Odenamiento en orden mayor a menor */
+SELECT rental_duration, COUNT(film_id) AS "Total" FROM film GROUP BY rental_duration ORDER BY rental_duration DESC;
+SELECT rental_duration, COUNT(film_id) AS "Total" FROM film GROUP BY rental_duration ORDER BY Total DESC;
+
+
+/* Odenamiento en orden menor a mayor */
+SELECT rental_duration, COUNT(film_id) AS "Total" FROM film GROUP BY rental_duration ORDER BY rental_duration ASC;
+
+/* Promedio del replacement_cost*/
+SELECT AVG(replacement_cost) AS "Costo Promedio" FROM film;
