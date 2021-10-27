@@ -1,0 +1,1 @@
+SELECT * FROM tablas WHERE id = 5;
