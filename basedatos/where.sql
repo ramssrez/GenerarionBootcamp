@@ -34,3 +34,25 @@ NO      NOT
 
 /* Operador AND */
 SELECT* FROM actor WHERE first_name = "CHRIS" AND actor_id > 50;
+
+/*
+COMODINES:
+Cualquier cantidad de caracteres: %
+Un caracter desconocido: _
+Busqueda por cualquier información
+*/
+
+/* Nombres que terminan con a*/
+SELECT * FROM actor WHERE first_name LIKE "%a";
+
+/* Nombres que inicia con a*/
+SELECT * FROM actor WHERE first_name LIKE "a%";
+
+/* Nombre que contengan u */
+SELECT * FROM actor WHERE first_name LIKE "%u%";
+
+/*Busca los que tengan u y last_name que empiecen en e*/
+SELECT * FROM actor WHERE first_name LIKE "%u%" OR last_name LIKE "e%";
+
+/* Busca first_name que contengan an o empiecen con e */
+SELECT * FROM actor WHERE first_name LIKE "%an%" OR last_name LIKE "e%";
