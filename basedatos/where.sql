@@ -80,3 +80,6 @@ SELECT rental_duration, COUNT(film_id) AS "Total" FROM film GROUP BY rental_dura
 
 /* Promedio del replacement_cost*/
 SELECT AVG(replacement_cost) AS "Costo Promedio" FROM film;
+
+/*Suma de toda la información de la tabla*/
+SELECT SUM(replacement_cost) AS "Costo total de inventario" FROM film;
