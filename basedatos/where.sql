@@ -77,9 +77,30 @@ SELECT rental_duration, COUNT(film_id) AS "Total" FROM film GROUP BY rental_dura
 
 /* Odenamiento en orden menor a mayor */
 SELECT rental_duration, COUNT(film_id) AS "Total" FROM film GROUP BY rental_duration ORDER BY rental_duration ASC;
+SELECT rental_duration, COUNT(film_id) AS "Total" FROM film GROUP BY rental_duration ORDER BY Total ASC;
 
-/* Promedio del replacement_cost*/
+/* Promedio del replacement_cost de toda la tabla*/
 SELECT AVG(replacement_cost) AS "Costo Promedio" FROM film;
 
 /*Suma de toda la información de la tabla*/
 SELECT SUM(replacement_cost) AS "Costo total de inventario" FROM film;
+
+/* Maximo de una tabla no todos los registros*/
+SELECT MAX(replacement_cost) AS "Maximo de la tabla" FROM film;
+/*Minimo de los regitros*/
+SELECT MIN(replacement_cost) AS "Minimo de la tabla" FROM film;
+
+/* Ordena de mayor a menor y obtiene el primero */
+SELECT * FROM film ORDER BY replacement_cost DESC LIMIT 1;
+
+/*Obtiene todos los registros que tengan el valor maximo*/
+SELECT * FROM film WHERE replacement_cost = (SELECT MAX(replacement_cost)  FROM film);
+
+/*Obtiene  solo el primer registro que tengan el valor maximo*/
+SELECT * FROM film WHERE replacement_cost = (SELECT MAX(replacement_cost)  FROM film) LIMIT 1;
+
+/*Obtiene todos los registros que tengan el valor minimo*/
+SELECT * FROM film WHERE replacement_cost = (SELECT MIN(replacement_cost)  FROM film);
+
+/*Obtiene solo el primer registro que tengan el valor minimo*/
+SELECT * FROM film WHERE replacement_cost = (SELECT MIN(replacement_cost)  FROM film) LIMIT 1;
